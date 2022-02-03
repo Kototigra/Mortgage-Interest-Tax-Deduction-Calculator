@@ -1,14 +1,14 @@
 import { Routes, Route} from 'react-router-dom'
 import './App.css';
-import Search from './components/Search/Search';
+import Main from './pages/Main/Main';
 
 function App() {
   return (
-    <div className="container py-5">
+    <>
       <Routes> 
-      <Route path='/' element={<Search/>} />
+      <Route path='/' element={<Main/>} />
       </Routes> 
-    </div>
+    </>
   );
 }
 
