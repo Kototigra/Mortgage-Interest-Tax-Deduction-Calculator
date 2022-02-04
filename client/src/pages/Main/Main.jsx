@@ -6,16 +6,11 @@ export default function Main() {
   return (
     <div className="app">
       <div className="buttonWraper">
-        <button type="button" className="btn btn-warning button" onClick={() => setModalActive(true)}>
+        <button type="button" className="calc-button" onClick={() => setModalActive(true)}>
           Налоговый вычет
         </button>
       </div>
-      <Modal active={modalActive} setActive={setModalActive}> 
-        <form action="">
-          <input></input>
-          <button type="button"></button>
-        </form>
-      </Modal>
+      <Modal active={modalActive} setActive={setModalActive}/>
     </div>
   )
 }

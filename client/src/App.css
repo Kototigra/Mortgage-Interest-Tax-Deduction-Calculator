@@ -8,15 +8,15 @@
   background: linear-gradient(to right, #fa4143, #dc222b);
 }
 
-.button {
+.calc-button {
   width: 250px;
-  height: 70px;
+  height: 60px;
   border: solid white 1px;
   border-radius: 7px;
   color: white;
   background: linear-gradient(to right, #fa4143, #dc222b);
 }
-.button:hover{
+.calc-button:hover{
   background: #dc222b
  }
 
@@ -46,8 +46,52 @@
   background-color: white;
   transform: scale(0.5);
   transition: 0.4s all;
-  width: 40vw;
+  width: 30vw;
 }
 .modal__content.active {
   transform: scale(1);
+}
+
+.modal__close-button {
+  position: absolute;
+  right: 20px;
+  color: #dc222b;
+  border: none;
+  background-color: white;
+  font-weight: bolder;
+}
+
+.modal__formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__text {
+  color: rgb(164, 164, 164);
+  font-size: small;
+  margin: 0px 5px 0px 5px;
+}
+
+.modal__salary button {
+  color: #dc222b;
+  border: none;
+  background-color: white;
+  font-weight: bolder;
+  padding: 0;
+}
+
+.modal__salary input {
+  border-width: 1px;
+  width: 95%;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.modal__salary p {
+  margin-bottom: 5px;
+}
+
+.module__checkbox-mark {
+  color: grey;
+  background-color: white
 }
